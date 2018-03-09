@@ -31,6 +31,10 @@ const apiRoutes = require('./server/routes/api');
 app.use('/auth', authRoutes);
 app.use('/api', apiRoutes);
 
+app.get("/*", function(req, res) {
+  res.sendFile(__dirname + '/server/static/index.html')
+  })
+
 // Set Port, hosting services will look for process.env.PORT
 app.set('port', (process.env.PORT || 3000));
 

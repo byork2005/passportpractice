@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import TopNav from "./components/TopNav";
 import TeacherClassPage from "./pages/Teacher/ClassPage";
 import TeacherHomePage from "./pages/Teacher/HomePage";
@@ -85,13 +83,14 @@ class Main extends Component {
       <MuiThemeProvider muiTheme={getMuiTheme()}>
         <Router>
           <div>
+            <TopNav />
             <div className="top-bar">
               <div className="top-bar-left">
-                <Link to="/">React App</Link>
+                <Link to="/">STUPID STUPID App</Link>
               </div>
               {this.state.authenticated ? (
                 <div className="top-bar-right">
-                  <Link to="/dashboard">Dashboard</Link>
+                  <Link to="/dashboard">Stupid Dashboard</Link>
                   <Link to="/logout">Log out</Link>
                 </div>
               ) : (
