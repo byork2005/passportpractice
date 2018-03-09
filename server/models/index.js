@@ -13,4 +13,8 @@ module.exports.connect = (uri) => {
 
   // load models
   require('./user');
+  require('./assignments');
+  require('./gradebook');
+  require('./classroom');
+  require('./notes');
 };
