@@ -24,7 +24,20 @@ module.exports = {
         presets: ["react", "es2015"],
         plugins: ["transform-es2015-destructuring", "transform-object-rest-spread"]
       }
-    }],
+    },
+    {
+      test: /\.css$/,
+      loader: 'style-loader'
+    }, {
+      test: /\.css$/,
+      loader: 'css-loader',
+      query: {
+        modules: true,
+        localIdentName: '[name]__[local]___[hash:base64:5]'
+      }
+    }
+  
+  ],
   },
 
   // start Webpack in a watch mode, so Webpack will rebuild the bundle on changes

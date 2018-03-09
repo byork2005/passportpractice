@@ -1,1 +1,1 @@
-// export { default } from "./StudentHome.js";
+export { default } from "./StudentHome.js";

@@ -28,10 +28,10 @@ const TopNav = () =>
         <Nav pullRight>
             <NavDropdown eventKey={3} title="Account" id="basic-nav-dropdown">
                 <MenuItem eventKey={3.1}>Leave Classroom</MenuItem>
-                {/* <MenuItem eventKey={3.2}>Another action</MenuItem>
-                <MenuItem eventKey={3.3}>Something else here</MenuItem> */}
+                <MenuItem eventKey={3.2} href="signup">Sign Up</MenuItem>
+                <MenuItem eventKey={3.3}href="login">Log in</MenuItem>
                 <MenuItem divider />
-                <MenuItem eventKey={3.3}>Log Out</MenuItem>
+                <MenuItem eventKey={3.3} href="/logout">Log Out</MenuItem>
             </NavDropdown>
         </Nav>
     </Navbar.Collapse>
