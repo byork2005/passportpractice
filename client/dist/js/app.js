@@ -21730,7 +21730,7 @@ var Main = function (_Component) {
                 _react2.default.createElement(
                   _reactRouterDom.Link,
                   { to: '/' },
-                  'STUPID STUPID App'
+                  'STUPID App'
                 )
               ),
               this.state.authenticated ? _react2.default.createElement(

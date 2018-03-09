@@ -86,7 +86,7 @@ class Main extends Component {
             <TopNav />
             <div className="top-bar">
               <div className="top-bar-left">
-                <Link to="/">STUPID STUPID App</Link>
+                <Link to="/">STUPID App</Link>
               </div>
               {this.state.authenticated ? (
                 <div className="top-bar-right">
