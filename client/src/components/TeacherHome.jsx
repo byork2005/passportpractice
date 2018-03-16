@@ -3,22 +3,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import {Row, Col} from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { Card, CardTitle, CardText } from 'material-ui/Card';
-import './style.css';
 
-const Sidebar = ({ secretData, user }) => (
-    <div className="navbar-default sidebar" style={{ marginLeft: '-20px' }} role="navigation">
-      <div className="sidebar-nav navbar-collapse collapse">
-        <ul className="nav in" id="side-menu">
-          <li>
-              <h3>Welcome</h3>
 
-            </li>
-        </ul>
-      </div>
-    </div>
- );
-
-const TeacherHomePage = ({ secretData, user}) => (  
+const TeacherHome = ({ secretData, user}) => (  
     <Card className="container">
     <CardTitle
       title="Teacher Home"
@@ -28,4 +15,4 @@ const TeacherHomePage = ({ secretData, user}) => (
   </Card>
 )
 
-export default TeacherHomePageTWO;
+export default TeacherHome;

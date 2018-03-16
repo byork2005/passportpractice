@@ -4,7 +4,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import TopNav from "./components/TopNav";
 import TeacherClassPage from "./pages/Teacher/ClassPage";
-import TeacherHomePage from "./pages/Teacher/HomePage";
+import TeacherHomePage from "./containers/TeacherHome.jsx";
 import StudentClassPage from "./pages/Student/ClassPage";
 import StudentHomePage from "./pages/Student/HomePage";
 // import routes from './routes.js';
@@ -101,10 +101,10 @@ class Main extends Component {
               )}
 
             </div>
-        {/* <Route path="/studenthome" component={StudentHomePage} /> */}
-        <Route path="/teacherhome" component={TeacherHomePage} />
-        {/* <Route path="/teacherclass" component={TeacherClassPage} />
-        <Route path="/studentclass" component={StudentClassPage} /> */}
+            <Route path="/studenthome" component={StudentHomePage} />
+            <PrivateRoute path="/teacherhome" component={TeacherHomePage} />
+            <Route path="/teacherclass" component={TeacherClassPage} />
+            <Route path="/studentclass" component={StudentClassPage} />
             <PropsRoute exact path="/" component={HomePage} toggleAuthenticateStatus={() => this.toggleAuthenticateStatus()} />
             <PrivateRoute path="/dashboard" component={DashboardPage}/>
             <LoggedOutRoute path="/login" component={LoginPage} toggleAuthenticateStatus={() => this.toggleAuthenticateStatus()} />

@@ -5,7 +5,7 @@ const TopNav = () =>
     <Navbar inverse collapseOnSelect>
     <Navbar.Header>
         <Navbar.Brand>
-        <a href="#brand">React-Bootstrap</a>
+        <a href="/">React-Bootstrap</a>
         </Navbar.Brand>
         <Navbar.Toggle />
     </Navbar.Header>
