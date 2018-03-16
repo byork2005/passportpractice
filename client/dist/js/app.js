@@ -22787,13 +22787,23 @@ var TopNav = function TopNav() {
                     ),
                     _react2.default.createElement(
                         _reactBootstrap.MenuItem,
-                        { eventKey: 3.2, href: "signup" },
+                        { eventKey: 3.2, href: "/signup" },
                         "Sign Up"
                     ),
                     _react2.default.createElement(
                         _reactBootstrap.MenuItem,
-                        { eventKey: 3.3, href: "login" },
+                        { eventKey: 3.3, href: "/login" },
                         "Log in"
+                    ),
+                    _react2.default.createElement(
+                        _reactBootstrap.MenuItem,
+                        { eventKey: 3.4, href: "/teacherhome" },
+                        "Teacher Home"
+                    ),
+                    _react2.default.createElement(
+                        _reactBootstrap.MenuItem,
+                        { eventKey: 3.5, href: "/teacherclass" },
+                        "Teacher Class"
                     ),
                     _react2.default.createElement(_reactBootstrap.MenuItem, { divider: true }),
                     _react2.default.createElement(
