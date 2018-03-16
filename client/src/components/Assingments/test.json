@@ -1,0 +1,195 @@
+{
+    "instructions":"The First World War saw the destruction of many long reigning Royal Houses across Europe. Which of the following monarchs survived the war?",
+    "questions": [
+        {
+        "question": "The First World War saw the destruction of many long reigning Royal Houses across Europe. Which of the following monarchs survived the war?",
+        "answers": [
+            {
+                "answer":"Kaiser Wilhelm II",
+                "value":false 
+            },
+            {
+                "answer":"King George V",
+                "value":true
+            },
+            {
+                "answer":"Tsar Nicholas II",
+                "value":false
+            },
+            {
+                "answer":"President Woodrow Wilson",
+                "value":false
+            }]},
+        {
+        "question": "Garvilo Princip, the man who shot Archduke Frans Ferdinad and sent Europe to war, was the member of a Slavic terrorist organization. Which of the following groups did he belong to?",
+        "answers": [
+            {
+                "answer":"The Black hand",
+                "value":true
+            },
+            {
+                "answer":"The White Rose",
+                "value":false
+            },
+            {
+                "answer":"The Marguis",
+                "value":false 
+            },
+            {
+                "answer":"The Bolshevicks",
+                "value":false
+            }]},
+            {
+        "question": "When Germany moved it's troops toward France, they avoided a straight path across the boarder, prefering to swing North through Belgium.  What was the name of this military strategy?",
+        "answers": [
+            {
+                "answer":"North Route",
+                "value":false
+            },
+            {
+                "answer":"Belgium Plan",
+                "value":true
+            },
+            {
+                "answer":"Normandy Swing",
+                "value":false
+            },
+            {
+                "answer":"The Schlieffen Plan",
+                "value":false
+            }]},
+            {
+        "question": "During the first month of the war, Germany delve deep into France, almost capturing Paris.  However, the efforts of one group of Parisans helped keep them at bay.  What profession is attributed with making sure French soliders were in position to protect Paris?",
+        "answers": [
+            {
+                "answer":"Barristas",
+                "value":false
+            },
+            {
+                "answer":"Train Conductors",
+                "value":false
+            },
+            {
+                "answer":"Military Truck Drivers",
+                "value":false  
+            },
+            {
+                "answer":"Taci Drivers",
+                "value":true
+            }]},
+            {
+        "question": "Christmas of 1914 is remembered by a famous stopage in hostilities, as troops from both sides left their tenches and mingled. What did they famously do?",
+        "answers": [
+            {
+                "answer":"Soccer",
+                "value":true 
+            },
+            {
+                "answer":"Cricket",
+                "value":false
+            },
+            {
+                "answer":"Stones",
+                "value":false  
+            },
+            {
+                "answer":"Roulette",
+                "value":false
+            }]},
+            {
+        "question": "Currently known for his role in the popular movie Wonder Woman, this man became one of the co-leaders, along with Paul vn Hindenberg, of Germany's military efforts throughout the war.",
+        "answers": [
+            {
+                "answer":"Eric Ludendorff",
+                "value":true 
+            },
+            {
+                "answer":"Kaiser Wilhelm II",
+                "value":false
+            },
+            {
+                "answer":"Rasputin",
+                "value":false  
+            },
+            {
+                "answer":"Adolf Hitler",
+                "value":false
+            }]},
+            {
+        "question": "One of the more famous military vehicles of the First World War, the German Zepplin began bombing London almost 30 years before Nazi Germany. Which of the following was a critcle compent of its construction?",
+        "answers": [
+            {
+                "answer":"50,000 Tons Aluminium",
+                "value":false
+            },
+            {
+                "answer":"250,000 Cows",
+                "value":true
+            },
+            {
+                "answer":"2 sqk Fabric",
+                "value":false  
+            },
+            {
+                "answer":"Helium. Like a lot",
+                "value":false
+            }]},
+            {
+        "question": "The Western Front is most famous for the trenches which weaved across the contient.  At the height, what was the length of this front?",
+        "answers": [
+            {
+                "answer":"12,3000 km",
+                "value":false 
+            },
+            {
+                "answer":"1,100 km",
+                "value":false
+            },
+            {
+                "answer":"625 km",
+                "value":false 
+            },
+            {
+                "answer":"700 km",
+                "value":true
+            }]},
+            {
+        "question": "Sitting on the sidelines for most of the war, the United States entered on the side of the Allies in 1917.  What event finally pushed America into the conflict?",
+        "answers": [
+            {
+                "answer":"Ugly Germans",
+                "value":false 
+            },
+            {
+                "answer":"The Sinking of the Lusitania",
+                "value":true
+            },
+            {
+                "answer":"War Monger Wilson",
+                "value":false  
+            },
+            {
+                "answer":"Expansionism",
+                "value":false
+            }]},
+            {
+        "question": "On 11 AM on November 11th, 1918, all was quiet on the Western Front.  Every year, the United Kingdom remembers the ceasefire by encircling the Tower of London with which flower?",
+        "answers": [
+            {
+                "answer":"Roses",
+                "value":false 
+            },
+            {
+                "answer":"Lillies",
+                "value":false
+            },
+            {
+                "answer":"Poppies",
+                "value":true  
+            },
+            {
+                "answer":"Edelweiss",
+                "value":false
+            }]}
+       ]
+    }

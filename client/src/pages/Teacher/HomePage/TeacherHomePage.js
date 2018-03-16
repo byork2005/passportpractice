@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import {Row, Col} from 'react-bootstrap';
+import PropTypes from 'prop-types';
+import { Card, CardTitle, CardText } from 'material-ui/Card';
 import './style.css';
 
 const Sidebar = ({ matchedPath }) => (
@@ -33,6 +35,7 @@ const Sidebar = ({ matchedPath }) => (
                     <Row>
                         <Col xs={6} md={8}>
                             <h1>MOTHER FUCKER</h1>
+                            {/* <h1>{user.name}</h1> */}
                         </Col>
                         <Col xs={6} md={4}>
                         

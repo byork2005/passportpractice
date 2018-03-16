@@ -101,7 +101,7 @@ class Main extends Component {
               )}
 
             </div>
-        <PrivateRoute path="/studenthome" component={StudentHomePage} />
+        {/* <Route path="/studenthome" component={StudentHomePage} /> */}
         <Route path="/teacherhome" component={TeacherHomePage} />
         {/* <Route path="/teacherclass" component={TeacherClassPage} />
         <Route path="/studentclass" component={StudentClassPage} /> */}
